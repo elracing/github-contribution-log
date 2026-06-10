@@ -1,15 +1,17 @@
 # Contribution [#]: [Issue Title]
 
-**Contribution Number:** [1 / 2 / 3]  
-**Student:** [Your Name]  
-**Issue:** [GitHub issue link]  
-**Status:** [Phase I / Phase II / Phase III / Phase IV] [In Progress / Complete]
+**Contribution Number:** 1  
+**Student:** Damarcos Estevez  
+**Issue:** https://github.com/openedx/frontend-app-learner-record/issues/609
+**Status:** Phase I Complete
 
 ---
 
 ## Why I Chose This Issue
 
 [1-2 paragraphs explaining why this issue interests you, how it matches your skills/learning goals, what you hope to learn]
+
+I have worked on front end apps before and have had Redux as a dependency in the past, I believe I should be able to remove the dependency of it just fine.
 
 ---
 
