@@ -3,7 +3,7 @@
 **Contribution Number:** 1  
 **Student:** Damarcos Estevez  
 **Issue:** https://github.com/openedx/frontend-app-learner-record/issues/609
-**Status:** Phase I Complete
+**Status:** Phase II Complete
 
 ---
 
@@ -21,17 +21,27 @@ I have worked on front end apps before and have had Redux as a dependency in the
 
 [In your own words, what's broken or missing?]
 
+Redux is installed, it is not used anywhere in code however, leading to dependency issues.
+
 ### Expected Behavior
 
 [What should happen?]
 
+No dependency issues/warnings
+
 ### Current Behavior
+
+Dependency erros/warnings from Redux
 
 [What actually happens?]
 
 ### Affected Components
 
+CI checks
+
 [Which parts of the codebase are involved?]
+
+CI tools, but lacks actual code usage
 
 ---
 
@@ -44,26 +54,30 @@ I have worked on front end apps before and have had Redux as a dependency in the
 ### Steps to Reproduce
 
 1. [Step 1]
-2. [Step 2]
-3. [Observed result]
+   Install through NPM, follow readme
+2. [Observed result]
+   JSON lists react redux and redux as part of the app, and is imported in some files, but there is no place where its actually used
 
 ### Reproduction Evidence
 
 - **Commit showing reproduction:** [Link to commit in your fork]
 - **Screenshots/logs:** [If applicable]
 - **My findings:** [What you discovered during reproduction]
-
+<img width="340" height="101" alt="image" src="https://github.com/user-attachments/assets/99932134-bb4f-4454-8b69-1d3f09e22cd0" />
+Reux shows in the app's JSON, but no code actually uses it
 ---
 
 ## Solution Approach
 
 ### Analysis
 
-[Your analysis of the root cause - what's causing the issue?]
+Unnecessary installation
+
+
 
 ### Proposed Solution
 
-[High-level description of your fix approach]
+Remove REDUX rentirely, make sure nothing is affected by removal
 
 ### Implementation Plan
 
@@ -71,33 +85,32 @@ Using UMPIRE framework (adapted):
 
 **Understand:** [Restate the problem]
 
+Redux is an unecessary installation
+
 **Match:** [What similar patterns/solutions exist in the codebase?]
 
+None, we are requiring removal, not replacement,
+
 **Plan:** [Step-by-step implementation plan]
-1. [Modify file X to do Y]
-2. [Add function Z]
-3. [Update tests]
+1. Verify there is no usage of redux in SRC folder
+2. Remove redux from isntallations
 
 **Implement:** [Link to your branch/commits as you work]
 
+https://github.com/elracing/frontend-app-learner-record/tree/fix-issue-609
+
 **Review:** [Self-review checklist - does it follow the project's contribution guidelines?]
 
+Forms signed to be able to contribute to Open edX is required for contribution, have signed. 
+
 **Evaluate:** [How will you verify it works?]
+
+Manual testing, simply watch for no code dependency of Redux.
 
 ---
 
 ## Testing Strategy
 
-### Unit Tests
-
-- [ ] Test case 1: [Description]
-- [ ] Test case 2: [Description]
-- [ ] Test case 3: [Description]
-
-### Integration Tests
-
-- [ ] Integration scenario 1
-- [ ] Integration scenario 2
 
 ### Manual Testing
 
