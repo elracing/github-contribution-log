@@ -114,25 +114,23 @@ Manual testing, simply watch for no code dependency of Redux.
 
 ### Manual Testing
 
-[What you tested manually and results]
+No test is needed, the only change was to package.json, Redux does not affect any component at all.
 
 ---
 
 ## Implementation Notes
 
-### Week [X] Progress
-
-[What you built this week, challenges faced, decisions made]
-
-### Week [Y] Progress
-
-[Continue documenting as you work]
+Removed all references to Redux, only referenced in jsons. There was no testing required for this change, had to clean-install npm to successfully remove references. 
 
 ### Code Changes
 
-- **Files modified:** [List]
-- **Key commits:** [Links to important commits]
-- **Approach decisions:** [Why you chose certain approaches]
+package.json
+package-lock.json
+
+no longer contain redux references. 
+https://github.com/elracing/frontend-app-learner-record/tree/fix-issue-609
+
+
 
 ---
 
