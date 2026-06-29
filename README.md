@@ -3,7 +3,7 @@
 **Contribution Number:** 1  
 **Student:** Damarcos Estevez  
 **Issue:** https://github.com/openedx/frontend-app-learner-record/issues/609
-**Status:** Phase II Complete
+**Status:** Phase IV Complete
 
 ---
 
@@ -136,36 +136,29 @@ https://github.com/elracing/frontend-app-learner-record/tree/fix-issue-609
 
 ## Pull Request
 
-**PR Link:** [GitHub PR URL when submitted]
+**PR Link:** 
+(https://github.com/openedx/frontend-app-learner-record/pull/684)
 
-**PR Description:** [Draft or final PR description - much of the content above can be adapted]
+**PR Description:** 
+Removes Redux references, fixing #609
 
 **Maintainer Feedback:**
-- [Date]: [Summary of feedback received]
-- [Date]: [How you addressed it]
+Awaiting feedback
 
 **Status:** [Awaiting review / Iterating / Approved / Merged]
-
+AWAITING REVIEW
 ---
 
 ## Learnings & Reflections
 
-### Technical Skills Gained
 
-[What you learned technically]
+It was helpful as an introduction to what normns are there when contributing, I had to sign forms in other to become a contributor.
 
-### Challenges Overcome
 
-[What was hard and how you solved it]
+It wasnt challenging as it was a trivial commit, but it taught me to search for repo information.
 
-### What I'd Do Differently Next Time
 
-[Reflection on your process]
 
----
 
 ## Resources Used
-
-- [Link to helpful documentation]
-- [Tutorial or Stack Overflow post that helped]
-- [GitHub issues or discussions that helped]
+N/A
